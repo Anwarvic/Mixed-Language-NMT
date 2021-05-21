@@ -21,7 +21,7 @@ The weather today very nice
 >>> text = "ذهبت إلى school مع أصدقائي the geeks"
 >>> nmt.translate(text)
 I went to school with my friends the geeks
->>> text = "ذهبت إلىI going to the restaurant français"
+>>> text = "I going to the restaurant français"
 >>> nmt.translate(text)
 I going to the restaurant French
 ```
