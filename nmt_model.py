@@ -39,5 +39,9 @@ class MixedLanguageNMT:
 if __name__ == "__main__":
     nmt = MixedLanguageNMT()
     text = "الطقس اليوم very nice"
+    print( nmt.translate(text) )
     text = "ذهبت إلى school مع أصدقائي the geeks"
     print( nmt.translate(text) )
+    text = "I going to the restaurant français"
+    print( nmt.translate(text) )
+    
